@@ -1,0 +1,129 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Adriana Cherry
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+
+@import url("../accelerate-theme/style.css");
+
+/* Global Styles */
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Homepage Styles */
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+#masthead nav ul li {
+	float: left
+	margin: 0 10px;
+}
+
+/* Case Studies */
+
+article.case-study{
+	margin-top: 40px 0 0;
+}
+
+aside.case-study-sidebar{
+	float: left;
+	width: 314px;
+	margin: 0 40px 0 0;
+}
+
+div.case-study-images{
+	float: left;
+	width: 606px;
+	margin-top: 30px;
+}
+
+div.case-study-images img{
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+}
+
+/*Featured Work on home page styles*/
+.featured-work h4 {
+   text-align: center;
+}
+
+ul.homepage-featured-work {
+	list-style: none;
+}
+
+li.individual-featured-work {
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+
+.individual-featured-work h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Case Studies Archives */
+
+.case-study {
+  overflow: auto;
+  margin-top: 20px;
+}
+
+
+/* Contact Us */
+#nf-field-5-container {
+   display: inline-block;
+}
+
+#nf-field-6-container {
+   display: inline-block;
+
+
+
+
+
